@@ -1,12 +1,12 @@
 
 build:
-	docker build -t model/base:latest .
+	docker build -t bjornmooijekind/test-model:latest .
 
 push:
-	docker push model/base:latest
+	docker push bjornmooijekind/test-model:latest
 
 getdata:
-	docker run -it model/base:latest python3 getdata.py
+	docker run -it bjornmooijekind/test-model:latest python3 getdata.py
 
 train:
-	docker run -it model/base:latest python3 train.py
+	docker run -it bjornmooijekind/test-model:latest python3 train.py
