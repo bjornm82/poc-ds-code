@@ -1,0 +1,6 @@
+name: base-image
+channels:
+  - defaults
+dependencies:
+  - boto3
+  - nb_conda_kernels
