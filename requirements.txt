@@ -1,4 +1,4 @@
-mlflow==2.3.1
+mlflow==3.9.0rc0
 tensorflow==2.1.0
 matplotlib
 scikit-learn
